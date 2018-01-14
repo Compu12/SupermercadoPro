@@ -7,7 +7,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/Menu.png"/>
+              <Image iconType="3" name="/Imagenes/Menu.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="MENU"/>
           </Properties>
@@ -16,6 +16,9 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+C"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/modificar.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Ingresar Clientes"/>
               </Properties>
@@ -28,6 +31,9 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+P"/>
                 </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/modificar.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ingresar Produtos"/>
               </Properties>
               <Events>
@@ -38,6 +44,9 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+E"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/modificar.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Ingresar Empleados"/>
               </Properties>
@@ -50,6 +59,9 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+S"/>
                 </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/Salir.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Salir"/>
               </Properties>
               <Events>
@@ -61,7 +73,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/herramienta.png"/>
+              <Image iconType="3" name="/Imagenes/herramienta.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="HERRAMIENTAS"/>
           </Properties>
@@ -70,6 +82,9 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+F"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/factura.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Factruras"/>
               </Properties>
@@ -82,13 +97,16 @@
         <Menu class="javax.swing.JMenu" name="jMenu3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/libros.png"/>
+              <Image iconType="3" name="/Imagenes/libros.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="CONSULTAS"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/datos.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Reporte de Empleados"/>
               </Properties>
               <Events>
@@ -97,6 +115,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/datos.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Reporte de Clientes"/>
               </Properties>
               <Events>
@@ -105,6 +126,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem10">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/datos.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Reporte de Productos"/>
               </Properties>
               <Events>
@@ -116,7 +140,7 @@
         <Menu class="javax.swing.JMenu" name="jMenu4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/imagenes/ayuda.png"/>
+              <Image iconType="3" name="/Imagenes/ayuda.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="AYUDA"/>
           </Properties>
@@ -125,6 +149,9 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+A"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagenes/iformacion.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="A cerca de..."/>
               </Properties>
@@ -182,7 +209,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="JDP_MenuPrincipal" pref="536" max="32767" attributes="0"/>
+              <Component id="JDP_MenuPrincipal" pref="565" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
